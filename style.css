@@ -1,0 +1,82 @@
+/* =========================================
+   MAIN BACKGROUND
+========================================= 
+
+.main {
+    background-color: #0E1117;
+    color: white;
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #000000;
+}
+
+/* =========================================
+   METRIC CARD
+========================================= */
+
+div[data-testid="metric-container"] {
+    background-color: #090c15;
+    border: 1px solid #2D2F3A;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* =========================================
+   METRIC LABEL
+========================================= */
+
+div[data-testid="metric-container"] label {
+    color: #BBBBBB;
+    font-size: 14px;
+}
+
+/* =========================================
+   METRIC VALUE
+========================================= */
+
+div[data-testid="metric-container"] div {
+    color: white;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.stButton>button {
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.stButton>button:hover {
+    background-color: #6366F1;
+}
+
+/* =========================================
+   SLIDER
+========================================= */
+
+.stSlider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
